@@ -1,0 +1,12 @@
+city_data = [("New York", "New York", 8622698, "301.5 sq mi"), 
+             ("Los Angeles", "California", 3999759, "468.7 sq mi"),
+             ("Chicago", "Illinois", 2716450, "227.3 sq mi"),
+             ("Houston", "Texas", 2312717, "637.5 sq mi"),
+             ("Phoenix", "Arizona", 1626078, "517.6 sq mi"),
+             ("Philadelphia", "Pennsylvania", 1580863, "134.2 sq mi"),
+             ("San Antonio", "Texas", 1511946, "461.0 sq mi"),
+             ("San Diego", "California", 1419516, "325.2 sq mi"),
+             ("Dallas", "Texas", 1341075, "340.9 sq mi"),
+             ("San Jose", "California", 1035317, "177.5 sq mi")]
+
+city_sizes = [float(city[-1].split()[0])  for city in city_data]
